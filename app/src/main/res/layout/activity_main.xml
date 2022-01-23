@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageButton
+        android:id="@+id/btn_forward"
+        android:backgroundTint="@color/purple_700"
+        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+        android:textSize="40sp"
+        android:layout_marginBottom="70dp"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="70dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:backgroundTint="@color/purple_700"
+        android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:textSize="40sp"
+        android:layout_marginBottom="-70dp"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="70dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_left"
+        android:backgroundTint="@color/purple_700"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:textSize="40sp"
+        android:layout_marginLeft="-60dp"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="70dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_right"
+        android:backgroundTint="@color/purple_700"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:textSize="40sp"
+        android:layout_marginLeft="60dp"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="70dp"/>
+
+</FrameLayout>
